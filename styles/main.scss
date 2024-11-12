@@ -1,0 +1,29 @@
+@use "./vendor/normalize";
+@use "./partials/colors";
+
+.header {
+    background-color: colors.$darker-background;
+    a {
+        color: white;
+    }
+}
+
+.story-content {
+    h2 {
+        color: colors.$secondary-font-color;
+    }
+    a {
+        color: colors.$secondary-font-color;
+        text-transform: uppercase;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+}
+
+.footer {
+    background-color: colors.$dark-background;
+    color: white;
+    padding: 10px;
+}
